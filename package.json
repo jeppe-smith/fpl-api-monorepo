@@ -1,0 +1,13 @@
+{
+  "name": "fpl-api-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo with packages for ongoing development and maintenance of fpl-api",
+  "main": "dist/index.js",
+  "author": "Jeppe Smith <mail@jeppesmith.dk>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "fpl-api",
+    "health-checker"
+  ]
+}
